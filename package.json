@@ -1,0 +1,22 @@
+{
+  "name": "roomex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "wdio": "wdio run ./wdio.conf.js",
+    "singleTest": "wdio run ./wdio.conf.js --spec"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/cli": "^8.38.1",
+    "@wdio/local-runner": "^8.38.0",
+    "@wdio/mocha-framework": "^8.38.0",
+    "@wdio/spec-reporter": "^8.38.0"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "soft-assert": "^0.2.7"
+  }
+}
